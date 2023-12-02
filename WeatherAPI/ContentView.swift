@@ -26,6 +26,7 @@ struct ContentView: View {
                             .foregroundStyle(.primary)
                         
                         Spacer()
+                        
                         //이미지URL형식 : https://openweathermap.org/img/wn/10d@2x.png
                         //비동기 이미지 API데이터때문에 사용
                         let urlImage = "https://openweathermap.org/img/wn/\(result.weather[0].icon ?? "" )@2x.png"
